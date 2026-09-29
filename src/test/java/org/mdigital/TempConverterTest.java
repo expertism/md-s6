@@ -9,7 +9,6 @@ public class TempConverterTest {
 
     @Test
     public void testCelsiusToFahrenheit() {
-        // Format: assertEquals(expected, actual, delta)
         assertEquals(32.0, TempConverter.celsiusToFahrenheit(0), DELTA);
         assertEquals(212.0, TempConverter.celsiusToFahrenheit(100), DELTA);
         assertEquals(-40.0, TempConverter.celsiusToFahrenheit(-40), DELTA);
