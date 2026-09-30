@@ -21,9 +21,9 @@ public class RomanNumerals {
         return map.get(value) + toNumerals(number - value);
     }
 
-//    static void main() {
-//        System.out.println(toNumerals(1));
-//    }
+    static void main() {
+        System.out.println(toNumerals(1));
+    }
 
 
 
